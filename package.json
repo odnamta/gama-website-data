@@ -1,0 +1,19 @@
+{
+  "name": "@gama/website-data",
+  "version": "1.0.0",
+  "description": "Shared data for Gama Group websites — single source of truth for company info, subsidiaries, heritage, and stats",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./group": "./src/group.ts",
+    "./subsidiaries": "./src/subsidiaries.ts",
+    "./heritage": "./src/heritage.ts",
+    "./stats": "./src/stats.ts"
+  },
+  "files": [
+    "src/"
+  ],
+  "keywords": ["gama-group", "shared-data"],
+  "license": "PRIVATE"
+}
